@@ -72,4 +72,11 @@ let g:molokai_original = 1
 set t_Co=256
 set nu
 syntax on
+nnoremap <silent> <F5> :NERDTree<CR>
 
+set tabstop=4
+set autoindent 
+set shiftwidth=2
+set smartindent 
+
+:filetype plugin on
